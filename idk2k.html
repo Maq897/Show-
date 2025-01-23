@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input class="idk" placeholder="type anything you want">
+  <button class="btn">show!</button>
+  <p class="do"></p>
+</body>
+<script>
+  const idk = document.querySelector('.idk')
+  const p = document.querySelector('.do')
+  const btn = document.querySelector('.btn')
+  let useless = " (absolutely usless and you're such a N.A.M.E. yet again)"
+
+  function change() {
+    p.innerHTML = idk.value + useless
+    alert('whatever you wrote is absolutely usless just like you and if you tried this then you are dumb and why are you still reading this much man, nerd')
+  }
+
+  btn.addEventListener('click', change)
+
+</script>
+</html>
